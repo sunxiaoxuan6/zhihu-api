@@ -3,8 +3,6 @@ package com.scs.soft.zhihu.api.entity;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.Date;
-
 /**
  * @author mq_xu
  * @description TODO
@@ -13,9 +11,10 @@ import java.util.Date;
 @Data
 @Builder
 public class RoundTable {
-    private Integer roundId;
+    private Integer id;
     private String name;
     private String banner;
+    private String tinyBanner;
     private String urlToken;
     private Integer visitsCount;
     private Integer includeCount;
